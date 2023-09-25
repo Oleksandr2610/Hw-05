@@ -590,7 +590,7 @@ p {
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input-icon:focus {
+.input-icon:focus .svg-name {
   border-color: #4d5ae5;
 }
 .svg-name {
@@ -598,7 +598,7 @@ p {
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-name:focus {
   fill: #4d5ae5;
