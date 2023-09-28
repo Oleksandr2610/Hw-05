@@ -631,6 +631,19 @@ p {
 .checkbox {
   margin-bottom: 24px;
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .lebel-checbox {
   font-size: 12px;
   line-height: 1.17;
@@ -638,6 +651,7 @@ p {
   color: #8e8f99;
 }
 .lebel-span {
+  position: relative;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -650,7 +664,7 @@ p {
   justify-content: center;
   fill: transparent;
 }
-.lebel-span {
+.lebel-span:checked + .lebel-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
