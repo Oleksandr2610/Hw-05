@@ -650,3 +650,11 @@ p {
   justify-content: center;
   fill: transparent;
 }
+.lebel-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+.checkbox-pos {
+  color: #4d5ae5;
+}
