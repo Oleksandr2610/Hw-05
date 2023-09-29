@@ -189,7 +189,7 @@ p {
 .section-work {
   padding: 120px 0;
 }
-.visually-hidden {
+.visually-hidde {
   display: none;
   position: absolute;
   width: 1px;
@@ -663,8 +663,6 @@ p {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-.svg-privacy {
 }
 .checkbox-button {
   margin: 0 auto;
