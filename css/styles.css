@@ -650,7 +650,7 @@ p {
   justify-content: center;
   fill: transparent;
 }
-.checkbox-input:checked + .lebel-privacy + .span-privacy {
+.checkbox-input:checked + .span-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
