@@ -659,7 +659,7 @@ p {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .span-privacy {
+.span-privacy:checked + .visually-hidden {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -687,4 +687,7 @@ p {
   border-radius: 4px;
   align-items: flex-start;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.posl-input {
+  color: #4d5ae5;
 }
